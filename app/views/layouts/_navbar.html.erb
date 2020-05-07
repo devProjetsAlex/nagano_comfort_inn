@@ -15,15 +15,15 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       
-        <%= link_to 'Prendre une réservation', root_path, class:"dropdown-item"%>      
+        <%= link_to 'Voir ses réservations', client_reservation_path, class:"dropdown-item"%>      
     
           <div class="dropdown-divider"></div>
 
-         <%= link_to 'Voir ses réservations', root_path, class:"dropdown-item"%>
+         <%= link_to 'Prendre une réservation', my_reservation_path, class:"dropdown-item"%>
 
         </div>
           <li class="nav-item <%= 'active' if request.path == root_path %>">
-        <%= link_to 'Administration', root_path, class:"nav-link" %>      
+        <%= link_to 'Administration', administration_action_path, class:"nav-link" %>      
       </li>
       </li>
     </ul>
