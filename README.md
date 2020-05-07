@@ -1,0 +1,1 @@
+# nagano_comfort_inn
